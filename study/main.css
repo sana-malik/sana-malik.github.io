@@ -1,0 +1,197 @@
+/* Tags */
+body { 
+	min-width: 700px;
+	padding: 0px; margin: 0px;
+	line-height: 1.2em;
+	color: #333;
+	font: normal 10pt "Helvetica", "Arial", sans-serif;
+	background: #FFF url('images/scr2.jpg');
+}
+
+p, blockquote, ul, ol {
+	line-height: 1.2em;
+}
+
+p {
+	margin:5px 5px 10px;
+	text-indent: 15px;
+}
+
+h1, h2, h3, h4 {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	margin: 0px;
+}
+
+/* page title */
+h1 {
+	color: #0052A3;
+	font-size: 2.7em;
+	line-height: 1em;
+	text-align: left;
+}
+
+b {
+    color: #5E7238;
+}
+/* box titles */
+h2 {
+	font-size: 2.2em;
+	padding: 0px 0px 0px 0px;
+}
+
+/* page caption */
+h3 {
+	font-size: 1.5em;
+	color: #000;
+	text-align: left;
+	padding: 0px;
+}
+
+/* p headers */
+h4 {
+	font-size: 1.3em;
+	color: #96b559;
+	margin-top: 20px;
+}
+
+a {
+	color: #356994;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333;
+}
+
+ul {
+	list-style: circle inside;
+}
+
+ul ul {
+	list-style: disc inside;
+}
+img {
+	border: none;
+}
+
+blockquote[cite]:after {
+	content: " quoted from " attr(cite);
+	font-weight: bold;
+	color: #96b559;
+}
+
+/* CLASSES */
+.clear {
+	width: 0px; height: 0px;
+	padding: 0px; margin: 0px;
+	clear: both;
+} 
+
+.picture {
+		max-width: 120px;
+		margin: 0px 0px 3px 0px;
+}
+
+.caption {
+		width: auto;
+		background: #FFF;
+		border: 1px solid #666;
+		padding: 3px;
+		color: #666;
+		float: left;
+		font-size: .9em;
+		font-style: italic;
+		text-align: center;
+		max-width: 120px;
+		margin: 0px 10px 10px 10px;
+}
+
+/* HEADER */
+#header {
+	background: url('images/wtrans.png');
+	margin: 0px; padding: 10px 15px 10px;
+	position: relative;
+	width: auto;
+	height: 50px;
+}
+
+#title {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#navigation {
+    float: right;
+    font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", Helvetica, Arial, sans-serif;
+	text-align: right;
+	margin-right: 25px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+
+
+#navigation a { 
+	color: #666;
+	font-size: 2em;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: right;
+	border-bottom: 4px solid #999;
+	margin-left: 10px;
+}
+
+#navigation a:hover {
+	color: #000;
+	border-bottom: 4px solid #96b559;
+}
+
+/* SIDEBAR */
+#sidebar {
+	text-align: left;
+	position: fixed;
+	float: left;
+	width: 20%;
+	margin: 20px;
+}
+
+#sidebar a {
+	border-left: 4px solid #666;
+	display: block;
+	padding: 0px 10px 0px;
+	margin: 0px 0px 5px 0px;
+	color: #888;
+	font: 1.7em "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight", Helvetica, Arial, sans-serif;
+}
+
+#sidebar a:hover {
+	border-left: 4px solid #be4b89;
+	color: #96b559;
+}
+
+/* CONTENT */
+#content {
+	width: 700px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#content .box {
+	clear: both;
+	margin: 0px 0px 30px;
+}
+
+#content .box .title {
+	vertical-align: middle;
+	min-height: 33px; width: 100%;
+}
+
+#content .box .text {
+	background-color: #FAFAFA;
+	padding: 5px;
+	border: 1px solid #96b559;
+	padding-bottom: 0px;
+}
